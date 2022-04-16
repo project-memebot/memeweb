@@ -32,4 +32,4 @@ async def login(request):
     return template("login.html", title="로그인", oauth_link="https://meme.orora.studio/")
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=6000)
+    app.run(host='127.0.0.1', port=6000)
