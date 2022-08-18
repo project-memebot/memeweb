@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Pretendard-SemiBold';
+    src: url('/static/fonts/Pretendard-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'TossFaceFont';
+    src: url('/static/fonts/TossFaceFont.ttf') format('truetype');
+}
+
+* {
+    font-family: Pretendard-SemiBold, TossFaceFont;
+}
+
+img {
+    max-width: 100%;
+}
+
+.pt-5 {
+    background-color: #2C2F33;
+    color: white;
+    text-align: center;
+}
